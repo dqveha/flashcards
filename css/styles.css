@@ -1,12 +1,22 @@
-.define-hide {
+#define-hide1,
+#define-hide2 {
   display: none;
 }
 
-.clickable {
+#clickable1 {
   cursor: pointer;
   color: blue;
 }
 
-.clickable:hover {
+#clickable1:hover {
+  text-decoration: underline;
+}
+
+#clickable2 {
+  cursor: pointer;
+  color: blue;
+}
+
+#clickable2:hover {
   text-decoration: underline;
 }
