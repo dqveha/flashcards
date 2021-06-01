@@ -1,15 +1,12 @@
-.green-background {
-  background-color: green;
+.define-hide {
+  display: none;
 }
 
-.black-background {
-  background-color: black;
+.clickable {
+  cursor: pointer;
+  color: blue;
 }
 
-.white-text p {
-  color: white;
-}
-
-.red-background {
-  background-color: red;
+.clickable:hover {
+  text-decoration: underline;
 }
